@@ -27,16 +27,16 @@
         </Grid.ColumnDefinitions>
 
         <Label Content="NOMBRE Y APELLIDO :" Grid.Row="1"  HorizontalAlignment="Center" FontWeight="Bold" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" VerticalAlignment="Center"/>
-        <TextBox x:Name="txtNombre" Grid.Row="1" Grid.Column="1" Background="#c7f6d4" Margin="10,10,72,10"  />
+        <TextBox x:Name="txtNombre" Grid.Row="1" Grid.Column="1" Background="#c7f6d4" Margin="10,10,72,10" FontSize="20"  />
         
         <Label Content="CONTRASEÑA :"  Grid.Row="2" HorizontalAlignment="Center"  FontWeight="Bold" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" VerticalAlignment="Center" />
-        <TextBox x:Name="contrasenia" Grid.Row="2" Grid.Column="1" Background="#c7f6d4" Margin="10,10,72,10"/>
+        <TextBox x:Name="contrasenia" Grid.Row="2" Grid.Column="1" FontSize="20" Background="#c7f6d4" Margin="10,10,72,10"/>
 
         <Label Content="TELEFONO :"  Grid.Row="3" HorizontalAlignment="Center"    FontWeight="Bold" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" VerticalAlignment="Center"  />
-        <TextBox x:Name="telefono" Grid.Row="3" Grid.Column="1" Background="#c7f6d4" Margin="10,10,72,10"/>
+        <TextBox x:Name="telefono" Grid.Row="3" Grid.Column="1" FontSize="20" Background="#c7f6d4" Margin="10,10,72,10"/>
 
         <Label Content=" EMAIL :"   Grid.Row="4" HorizontalAlignment="Center"   FontWeight="Bold" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" VerticalAlignment="Center"  />
-        <TextBox x:Name="txtCorreo" Grid.Row="4" Grid.Column="1" Background="#c7f6d4" Margin="10,10,72,10"/>
+        <TextBox x:Name="txtCorreo" Grid.Row="4" Grid.Column="1" FontSize="20" Background="#c7f6d4" Margin="10,10,72,10"/>
 
 
         <Button x:Name="btnVolver" Content="Volver" FontFamily="Tw Cen MT Condensed Extra Bold" FontSize="18" Background="#666f88" Width="150" Click="btnVolver_Empleado" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Center" />
